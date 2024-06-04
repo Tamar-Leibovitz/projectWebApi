@@ -68,6 +68,10 @@ namespace projectWebApi.Controllers
         {
             try
             {
+                if(!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
                 User isSuccessRegist =await _userService.Register(user);
                 if (isSuccessRegist != null)
                 {

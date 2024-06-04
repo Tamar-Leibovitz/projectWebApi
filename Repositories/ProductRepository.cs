@@ -18,10 +18,6 @@ namespace Repositories
             _shop = shop;
         }
 
-
-
-
-
         public async Task<List<Product>> GetAllProducts(string? desc, int? minPrice, int? maxPrice, int?[] categoryIds)
         {
             var query = _shop.Products
@@ -39,6 +35,10 @@ namespace Repositories
             return products;
         }
 
+        public async Task<Product> GetProductById(int id)
+        {
+            return await _shop.Products.Where(prod => prod.ProductId == id).FirstOrDefaultAsync();
+        }
 
     }
 }

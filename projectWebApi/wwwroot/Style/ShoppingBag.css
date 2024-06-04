@@ -1,4 +1,4 @@
-﻿html, body {
+﻿/*html, body {
     direction: rtl;
     margin: 0;
     padding: 0;
@@ -152,4 +152,111 @@ a.GoToCheckout.TopLink {
     border-radius: 3px;
     display: inline-block;
     padding: 4px 10px;
+}*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+.cart {
+    padding: 20px;
+    margin: auto;
+    max-width: 800px;
+    background-color: #ffffff;
+}
+
+#title {
+    text-align: center;
+}
+
+    #title h1 {
+        color: #2c3e50;
+    }
+
+    #title p {
+        color: #34495e;
+        font-size: 1.2em;
+    }
+
+.nxbtn.primary.GoToCheckout {
+    background-color: #16a085; /* Dark Turquoise */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    display: inline-block;
+    margin: 10px;
+}
+
+    .nxbtn.primary.GoToCheckout:hover {
+        background-color: #138d75;
+    }
+
+.shopmore {
+    background-color: #2980b9; /* Dark Blue */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    display: inline-block;
+    margin: 10px;
+}
+
+    .shopmore:hover {
+        background-color: #2471a3;
+    }
+
+.cistGroup {
+    margin-top: 20px;
+}
+
+table.items {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    table.items th, table.items td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: right;
+    }
+
+    table.items th {
+        background-color: #f8f9fa;
+        color: #2c3e50;
+    }
+
+    table.items td img {
+        max-width: 100%;
+    }
+
+button#remove, button#plus, button#minos {
+    background-color: #16a085; /* Dark Turquoise */
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+    button#remove:hover, button#plus:hover, button#minos:hover {
+        background-color: #138d75;
+    }
+
+.quantity-num {
+    font-size: 1.2em;
+    color: #2c3e50;
+}
+
+.ClearBoth {
+    clear: both;
 }
