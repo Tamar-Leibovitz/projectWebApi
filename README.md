@@ -33,7 +33,7 @@ Scalability
 To ensure scalability, all functions are implemented using asynchronous programming (async and await) for handling long-running operations efficiently.
 
 Data Input
-Data input is handled in a separate project. You can find more details and access it here: https://github.com/tzivya-zalaznik/ManagerShopProject_WebApi
+Data input is handled in a separate project. You can find more details and access it here: https://github.com/Tamar-Leibovitz/Manager_Shop_WebApi
 
 Documentation
 The entire project is documented using Swagger, providing an easy-to-use interface for API exploration and testing.
